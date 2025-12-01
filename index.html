@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LifeMax Hospital - Dadar, Mumbai</title>
+  <link rel="icon" type="image/x-icon" href="LifeMax1.png">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f7f9fb;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0077b6, #0096c7);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.8rem;
+      font-weight: bold;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .section {
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    .section h2 {
+      margin-top: 0;
+      color: #0077b6;
+    }
+
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      padding: 20px;
+      background: #eef7ff;
+      border-left: 6px solid #0077b6;
+      border-radius: 8px;
+    }
+
+    footer {
+      background: #023e8a;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>LifeMax Hospital</h1>
+  <p>Sardar Road, Dadar, Mumbai • Phone: (022)-123456</p>
+</header>
+
+<div class="container">
+  <div class="section">
+    <h2>About Us</h2>
+    <p>
+      LifeMax Hospital provides round-the-clock medical care with modern facilities and experienced specialists. Our Emergency Room operates 24/7, ensuring immediate assistance whenever needed. With departments across Cardiology, Pediatrics, Radiology, Orthopedics, and more, we deliver trusted healthcare for families across Mumbai.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>Key Information</h2>
+    <div class="info-grid">
+      <div class="card">
+        <h3>Hospital Timings</h3>
+        <p>• Main Facility: Open 24/7<br>• Main Entrance Opens: 6:00 AM</p>
+      </div>
+
+      <div class="card">
+        <h3>Visiting Hours</h3>
+        <p>10:00 AM - 8:00 PM daily<br>ICU and special units may have restricted timings.</p>
+      </div>
+
+      <div class="card">
+        <h3>Emergency Care</h3>
+        <p>ER available 24/7 with fully staffed medical team.</p>
+      </div>
+
+      <div class="card">
+        <h3>Pharmacy</h3>
+        <p>Open Monday-Friday<br>8:00 AM - 6:00 PM</p>
+      </div>
+
+      <div class="card">
+        <h3>Parking</h3>
+        <p>Garage A & B<br>First hour free, ₹5/day.</p>
+      </div>
+
+      <div class="card">
+        <h3>Wi-Fi</h3>
+        <p>Guest Network: <b>HospitalGuest</b><br>No password required.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Major Departments</h2>
+    <ul>
+      <li>Cardiology - 4th Floor, West Wing</li>
+      <li>Radiology & Imaging - 1st Floor, Main Lobby</li>
+      <li>Pediatrics - 5th Floor</li>
+      <li>General Medicine & Surgery</li>
+      <li>Orthopedics, Oncology & More</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Appointments & Billing</h2>
+    <p>• Book online via patient portal or call (022)-123456.<br>
+       • Bills can be paid online, by mail, or at the Patient Accounts Office.<br>
+       • Bring your photo ID, insurance card, and medication list during your visit.</p>
+  </div>
+</div>
+
+<footer>
+  © 2025 LifeMax Hospital - Caring for Mumbai, Every Day
+</footer>
+
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  chat-title="LifeMax Assistant"
+  agent-id="3d6fe706-ec29-4206-9597-2029533f2726"
+  language-code="en"
+></df-messenger>
+
+</body>
+</html>
